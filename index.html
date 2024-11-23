@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="aboutme.CSS">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Life</title>
+    <style>
+        body {
+            background-color: #f0ebd8; /* Beige suave para el fondo */
+            color: #333; /* Gris oscuro para el texto */
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 20px;
+        }
+
+        table {
+            margin: 20px auto;
+            border-collapse: collapse;
+            width: 70%;
+            background-color: #a2d2ff; /* Azul claro para la tabla */
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+            border-radius: 12px;
+        }
+
+        td {
+            padding: 20px;
+            text-align: center;
+            font-size: 18px;
+            color: #333; /* Gris oscuro para el texto dentro de la tabla */
+        }
+
+        img {
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease;
+        }
+
+        img:hover {
+            transform: scale(1.05); /* Efecto de zoom */
+        }
+
+        h1 {
+            color: #3e5c76; /* Azul oscuro para el título */
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            margin: 10px 0;
+            font-style: italic;
+            color: #5f6368; /* Gris más suave para el subtítulo */
+        }
+
+        .button-container {
+            margin-top: 20px;
+        }
+
+        .about-me-button {
+            padding: 15px 30px;
+            font-size: 18px;
+            background-color: #3e5c76; /* Azul oscuro para el botón */
+            color: white;
+            border: none;
+            border-radius: 25px;
+            cursor: pointer;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: background-color 0.3s ease, transform 0.3s ease;
+        }
+
+        .about-me-button:hover {
+            background-color: #2f4351; /* Azul más oscuro al pasar el cursor */
+            transform: scale(1.05); /* Efecto de escala */
+        }
+
+        .about-me-button:active {
+            background-color: #1f2b33; /* Azul muy oscuro al hacer clic */
+        }
+    </style>
+</head>
+<body>
+    <h1>My Life</h1>
+    <table>
+        <tr>
+            <td colspan="2">
+                <h2>In this web page, you will learn <i>About Me</i></h2>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <img src="mate.JPG" width="300" height="250" alt="My Image">
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" class="button-container">
+                <a href="aboutme_2.html">
+                    <button class="about-me-button">About me</button>
+                </a>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
